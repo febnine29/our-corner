@@ -38,6 +38,146 @@
 }
 
 /* --------------MY CSS------------- */
+.App {
+  height: 100vh;
+}
 .App .clock{
   display: flex;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  background-image: linear-gradient(120deg, rgb(252, 203, 144) 0%, rgb(213, 126, 235) 100%) ;
+
+}
+.top-page{
+  height: 75%;
+}
+.bottom-page{
+  height: 25%;
+}
+.main{
+  width: 100vw;
+  height: 75vh;
+  padding-top: 100px;
+ 
+}
+
+.container {
+  width: 150px;
+  height: 150px;
+  perspective: 1000px;
+  z-index: 1;
+  margin: auto
+}
+.cube {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  position: relative;
+  animation: spin 20s infinite linear;
+}
+
+.cube .face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 3px solid #fff;
+}
+
+.cube .face img {
+  width: 100%;
+  height: 100%;
+}
+
+.cube .front {
+  transform: rotateX(180deg) translateZ(74px);
+}
+
+.cube .back {
+  transform: rotateX(0deg) translateZ(74px);
+}
+
+.cube .right {
+  transform: rotateX(90deg) translateZ(74px);
+}
+
+.cube .left {
+  transform: rotateX(-90deg) translateZ(74px);
+}
+
+.cube .top {
+  transform: rotateY(90deg) translateZ(74px);
+}
+
+.cube .bottom {
+  transform: rotateY(-90deg) translateZ(74px);
+}
+.cube .front, .cube .back, .cube .right, 
+.cube .left, .cube .top, .cube .bottom{
+  transition: 1s ease-in-out
+}
+@keyframes spin {
+  from {
+      transform: rotateX(25deg) rotateY(0deg);
+  }
+
+  to {
+      transform: rotateX(25deg) rotateY(360deg);
+  }
+}
+
+.myButton{
+  transform: translateY(-200px);
+}
+.frontS,.backS,.rightS,.leftS,.topS,.bottomS{
+  overflow: hidden;
+  border-radius: 10px;
+}
+.frontS{
+  transform: rotateX(180deg) translateZ(100px) !important;
+}
+.backS{
+  transform: rotateX(0deg) translateZ(100px)!important;
+}
+.rightS{
+  transform: rotateX(90deg) translateZ(100px)!important
+}
+.leftS{
+  transform: rotateX(-90deg) translateZ(100px) !important
+}
+.topS{
+  transform: rotateY(90deg) translateZ(100px)!important
+}
+.bottomS{
+  transform: rotateY(-90deg) translateZ(100px)!important
+}
+.myButton{
+  position: absolute;
+  top:40%;
+  left: 15%;
+  opacity: 0;
+  width: 70%;
+  height: 30%;
+  z-index: 2;
+}
+
+.date-counter{
+  width: 100vw;
+  height: 100%;
+  padding-top: 100px
+}
+.date-counter #wrapper #info{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.footer{
+  height: 25vh;
+  padding-top: 80px
 }
