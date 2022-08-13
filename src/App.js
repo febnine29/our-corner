@@ -85,7 +85,7 @@ function App() {
     <div className="App">
       <div className="top-page">
         <button onClick={handleToggleClass} style={{width: '100px', height: '100px'}}></button>
-        <div className="container">
+        <div className="container container-cube">
               <div className="cube">
                   <div className={classFront}>
                       <img src={img1} alt="rotate-the-image" />
@@ -115,7 +115,7 @@ function App() {
           />
       </div>
       <div className='bottom-page'>
-
+        <span>testt</span>
       </div>
       
     </div>
