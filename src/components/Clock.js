@@ -1,29 +1,29 @@
 import React, { Fragment } from "react";
-
+import '../App.css'
 const Clock = ({ timerDays, timerHours, timerMinutes, timerSeconds, timerMonths }) => {
   return (
     <Fragment>
       <section className="timer-container" style={{marginTop: '100px'}}>
         <section className="timer">
-          <div className="clock" style={{width: '200px',margin: '0px auto'}}>
+          <div className="clock" style={{width: '200px',margin: '0px auto', display: 'flex'}}>
             <section>
               <p>{timerDays}</p>
-              <small>Days</small>
+              <small>Ngày</small>
             </section>
             <span>:</span>
             <section>
               <p>{timerHours}</p>
-              <small>Hours</small>
+              <small>Giờ</small>
             </section>{" "}
             <span>:</span>
             <section>
               <p>{timerMinutes}</p>
-              <small>Minutes</small>
+              <small>Phút</small>
             </section>{" "}
             <span>:</span>
             <section>
               <p>{timerSeconds}</p>
-              <small>Seconds</small>
+              <small>Giây</small>
             </section>
           </div>
           

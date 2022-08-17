@@ -135,7 +135,7 @@ const App = () => {
 
 	return (
 		<AppContainer libraryStatus={libraryStatus}>
-			<Nav libraryStatus={libraryStatus} setLibraryStatus={setLibraryStatus} />1
+			<Nav libraryStatus={libraryStatus} setLibraryStatus={setLibraryStatus} />
 			<div style={{height: '60vh', zIndex:'8'}}>
 			<div className="top-page">
         <button onClick={handleToggleClass}></button>
@@ -186,7 +186,7 @@ const App = () => {
 				setSongInfo={setSongInfo}
 				songs={songs}
 				setSongs={setSongs}
-			/>3
+			/>
 			<Library
 				songs={songs}
 				setCurrentSong={setCurrentSong}
@@ -194,7 +194,7 @@ const App = () => {
 				isPlaying={isPlaying}
 				setSongs={setSongs}
 				libraryStatus={libraryStatus}
-			/>4
+			/>
 			
 			<audio
 				onLoadedMetadata={updateTimeHandler}
@@ -202,7 +202,7 @@ const App = () => {
 				onEnded={songEndHandler}
 				ref={audioRef}
 				src={currentSong.audio}
-			/>5
+			/>
 		</AppContainer>
 	);
 };

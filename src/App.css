@@ -81,8 +81,13 @@ h4 {
   .top-page .space{
 	height: 90px;
   }
-  .App .clock{
+  .timer-container .timer .clock section{
+	background:rgb(252, 203, 144);
 	display: flex;
+	align-items: center;
+  }
+  .timer-container .timer .clock section small{
+	margin-left: 5px;
   }
  
   .top-page{
