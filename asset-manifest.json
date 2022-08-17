@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/our-corner/static/css/main.bf0d5942.chunk.css",
-    "main.js": "/our-corner/static/js/main.8fa3f224.chunk.js",
-    "main.js.map": "/our-corner/static/js/main.8fa3f224.chunk.js.map",
+    "main.css": "/our-corner/static/css/main.4b7d0f5d.chunk.css",
+    "main.js": "/our-corner/static/js/main.3e678f8f.chunk.js",
+    "main.js.map": "/our-corner/static/js/main.3e678f8f.chunk.js.map",
     "runtime-main.js": "/our-corner/static/js/runtime-main.bac865fd.js",
     "runtime-main.js.map": "/our-corner/static/js/runtime-main.bac865fd.js.map",
     "static/js/2.73526041.chunk.js": "/our-corner/static/js/2.73526041.chunk.js",
@@ -10,13 +10,14 @@
     "static/js/3.4a6ab43d.chunk.js": "/our-corner/static/js/3.4a6ab43d.chunk.js",
     "static/js/3.4a6ab43d.chunk.js.map": "/our-corner/static/js/3.4a6ab43d.chunk.js.map",
     "index.html": "/our-corner/index.html",
-    "static/css/main.bf0d5942.chunk.css.map": "/our-corner/static/css/main.bf0d5942.chunk.css.map",
+    "static/css/main.4b7d0f5d.chunk.css.map": "/our-corner/static/css/main.4b7d0f5d.chunk.css.map",
     "static/js/2.73526041.chunk.js.LICENSE.txt": "/our-corner/static/js/2.73526041.chunk.js.LICENSE.txt",
-    "static/media/01.34bde32d.jpg": "/our-corner/static/media/01.34bde32d.jpg",
-    "static/media/02.02dc064c.jpg": "/our-corner/static/media/02.02dc064c.jpg",
-    "static/media/03.c9919d72.jpg": "/our-corner/static/media/03.c9919d72.jpg",
-    "static/media/04.e7c9647e.jpg": "/our-corner/static/media/04.e7c9647e.jpg",
-    "static/media/05.46bc70fd.jpg": "/our-corner/static/media/05.46bc70fd.jpg",
+    "static/media/01.5491b0e3.JPG": "/our-corner/static/media/01.5491b0e3.JPG",
+    "static/media/02.d00ea073.jpg": "/our-corner/static/media/02.d00ea073.jpg",
+    "static/media/03.e3db355a.jpg": "/our-corner/static/media/03.e3db355a.jpg",
+    "static/media/04.33d4b91c.jpeg": "/our-corner/static/media/04.33d4b91c.jpeg",
+    "static/media/05.a39464df.jpeg": "/our-corner/static/media/05.a39464df.jpeg",
+    "static/media/06.64896540.jpeg": "/our-corner/static/media/06.64896540.jpeg",
     "static/media/CoLeQuaKhoDeQuenMotNguoi.36ab8170.mp3": "/our-corner/static/media/CoLeQuaKhoDeQuenMotNguoi.36ab8170.mp3",
     "static/media/DamTrongTim.67c94567.mp3": "/our-corner/static/media/DamTrongTim.67c94567.mp3",
     "static/media/HuongMuahe.d94e9c48.mp3": "/our-corner/static/media/HuongMuahe.d94e9c48.mp3",
@@ -29,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.bac865fd.js",
     "static/js/2.73526041.chunk.js",
-    "static/css/main.bf0d5942.chunk.css",
-    "static/js/main.8fa3f224.chunk.js"
+    "static/css/main.4b7d0f5d.chunk.css",
+    "static/js/main.3e678f8f.chunk.js"
   ]
 }
