@@ -1,4 +1,5 @@
 import { v4 as uuidv4 } from "uuid";
+import mylove from './database/mylove.mp3'
 function chillHop() {
 	return [
 		{
@@ -6,7 +7,7 @@ function chillHop() {
 			cover:
 				"https://chillhop.com/wp-content/uploads/2020/09/0255e8b8c74c90d4a27c594b3452b2daafae608d-1024x1024.jpg",
 			artist: "Grey-D, Suni Hạ Linh, Hoàng Dũng, Orange",
-			audio: "https://data.chiasenhac.com/down2/2269/1/2268201-2279e675/128/Khi%20Co%20Don%20Em%20Nho%20Den%20Ai%20-%20Grey%20D_%20Suni.mp3",
+			audio: mylove,
 			color: ["#205950", "#2ab3bf"],
 			id: uuidv4(),
 			active: true,
