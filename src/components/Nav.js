@@ -6,19 +6,26 @@ import { faMusic } from "@fortawesome/free-solid-svg-icons";
 const Nav = ({ libraryStatus, setLibraryStatus }) => {
 	return (
 		<NavContainer>
-			<H1 libraryStatus={libraryStatus}>Vibes</H1>
+			<div style={{marginRight: 'auto'}}>
+				<H1 libraryStatus={libraryStatus}>Vibes</H1>
+			</div>
+			<div>
 			<Button onClick={() => setLibraryStatus(!libraryStatus)}>
 				Library
 				<FontAwesomeIcon icon={faMusic} />
 			</Button>
+			</div>
+			
+			
 		</NavContainer>
 	);
 };
 
 const NavContainer = styled.div`
-	min-height: 10vh;
+	min-height: 6vh;
+	padding: 10px;
 	display: flex;
-	justify-content: space-around;
+	width: 100%;
 	align-items: center;
 	@media screen and (max-width: 768px) {
 		position: fixed;

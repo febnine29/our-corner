@@ -12,12 +12,10 @@ const Song = ({ currentSong }) => {
 };
 
 const SongContainer = styled.div`
-	
-	
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+	
+	text-align: left
 `;
 
 const Img = styled.img`
@@ -29,11 +27,11 @@ const Img = styled.img`
 `;
 
 const H1 = styled.h2`
-	padding: 3rem 1rem 1rem 1rem;
+	font-size: 16px
 `;
 
 const H2 = styled.h3`
-	font-size: 1rem;
+	font-size: 14px;
 `;
 
 export default Song;

@@ -86,6 +86,7 @@ const Player = ({
 	return (
 		
 		<PlayerContainer>
+			<div style={{width: '300px', marginLeft: 'auto'}}>
 			<TimeControlContainer>
 				<div style={{}}>
 					<Song currentSong={currentSong} />
@@ -106,7 +107,7 @@ const Player = ({
 					<div style={{marginLeft: 'auto'}}><P>{getTime(songInfo.duration || 0)}</P></div>
 				</div>
 			</TimeControlContainer>
-
+			</div>
 			<PlayControlContainer>
 				<FontAwesomeIcon
 					onClick={() => skipTrackHandler("skip-back")}

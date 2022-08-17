@@ -11,11 +11,12 @@ import Credit from "./components/Credit";
 // Import data
 import data from "./data";
 import Clock from "./components/Clock";
-import img1 from "./images/01.jpg";
+import img1 from "./images/01.JPG";
 import img2 from "./images/02.jpg";
 import img3 from "./images/03.jpg";
-import img4 from "./images/04.jpg";
-import img5 from "./images/05.jpg"
+import img4 from "./images/04.jpeg";
+import img5 from "./images/05.jpeg";
+import img6 from "./images/06.jpeg"
 // ----------DAYJS CONFIG-----------
 const dayjs = require('dayjs')
 var weekOfYear = require('dayjs/plugin/weekOfYear')
@@ -138,14 +139,14 @@ const App = () => {
 			<Nav libraryStatus={libraryStatus} setLibraryStatus={setLibraryStatus} />
 			<div style={{height: '60vh', zIndex:'8'}}>
 			<div className="top-page">
-        <button onClick={handleToggleClass}></button>
+        <button onClick={handleToggleClass} className="toggleAni"></button>
         <div className='space'>
           
         </div>
         <div className="container container-cube">
               <div className="cube">
                   <div className={classFront}>
-                      <img src={img1} alt="rotate-the-image" />
+                      <img src={img6} alt="rotate-the-image" />
                   </div>
                   <div className={classBack}>
                       <img src={img2} alt="..." />
