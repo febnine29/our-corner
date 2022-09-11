@@ -173,7 +173,7 @@ const App = () => {
           />
       </div>
       <div className='bottom-page'>
-        <span>testt</span>
+        <h4 style={{textAlign: 'center'}}>Embe của anh, anh yêu em rất nhiều!!!!</h4>
       </div>
 
 			</div>
