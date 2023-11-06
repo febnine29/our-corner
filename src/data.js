@@ -6,9 +6,53 @@ import colequakho from './database/CoLeQuaKhoDeQuenMotNguoi.mp3';
 import TamTinh from './database/TamTinh.mp3';
 import TuSu from './database/TuSu.mp3';
 import ngatukhongden from './database/NgaTukhongDen.mp3';
-import untilfoundyou from './database/UntilFoundYou.mp3'
+import untilfoundyou from './database/UntilFoundYou.mp3';
+import detoiomem from './database/detoiomem.mp3';
+import anhsedencungconmua from './database/anhsedencungconmua.mp3'
+import dubaothoitiet from './database/dubaothoitiet.mp3'
+import emvetinhkhoi from './database/emvetinhkhoi.mp3';
 function chillHop() {
 	return [
+		{
+			name: "Để tôi ôm em bằng giai điệu này",
+			cover:
+				"https://chillhop.com/wp-content/uploads/2020/09/0255e8b8c74c90d4a27c594b3452b2daafae608d-1024x1024.jpg",
+			artist: "KAI ĐINH x MIN x GREY D",
+			audio: detoiomem,
+			color: ["#205950", "#2ab3bf"],
+			id: uuidv4(),
+			active: true,
+		},
+		{
+			name: "Anh sẽ đến cùng cơn mưa",
+			cover:
+				"https://chillhop.com/wp-content/uploads/2020/09/0255e8b8c74c90d4a27c594b3452b2daafae608d-1024x1024.jpg",
+			artist: "HỨA KIM TUYỀN x GREY D",
+			audio: anhsedencungconmua,
+			color: ["#205950", "#2ab3bf"],
+			id: uuidv4(),
+			active: true,
+		},
+		{
+			name: "Dự báo thời tiết hôm nay mưa",
+			cover:
+				"https://chillhop.com/wp-content/uploads/2020/09/0255e8b8c74c90d4a27c594b3452b2daafae608d-1024x1024.jpg",
+			artist: "GREY D",
+			audio: dubaothoitiet,
+			color: ["#205950", "#2ab3bf"],
+			id: uuidv4(),
+			active: true,
+		},
+		{
+			name: "Em về tinh khôi",
+			cover:
+				"https://chillhop.com/wp-content/uploads/2020/09/0255e8b8c74c90d4a27c594b3452b2daafae608d-1024x1024.jpg",
+			artist: "AMEE x HOÀNG DŨNG x GREY D",
+			audio: detoiomem,
+			color: ["#205950", "#2ab3bf"],
+			id: uuidv4(),
+			active: true,
+		},
 		{
 			name: "Hương Mùa Hè",
 			cover:

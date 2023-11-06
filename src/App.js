@@ -11,7 +11,7 @@ import Credit from "./components/Credit";
 // Import data
 import data from "./data";
 import Clock from "./components/Clock";
-import img1 from "./images/01.JPG";
+import img1 from "./images/01.jpg";
 import img2 from "./images/02.jpg";
 import img3 from "./images/03.jpg";
 import img4 from "./images/04.jpeg";
@@ -173,7 +173,7 @@ const App = () => {
           />
       </div>
       <div className='bottom-page'>
-        <h4 style={{textAlign: 'center'}}>Embe của anh, anh yêu em rất nhiều!!!!</h4>
+        <h4 style={{textAlign: 'center', marginTop: '50px'}}>Embe của anh, anh yêu em rất nhiều!!!!</h4>
       </div>
 
 			</div>
