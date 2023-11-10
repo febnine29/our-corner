@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/our-corner/static/css/main.189ad379.css",
-    "main.js": "/our-corner/static/js/main.6acd1a35.js",
+    "main.js": "/our-corner/static/js/main.e5df72a8.js",
     "static/js/377.84e2ac22.chunk.js": "/our-corner/static/js/377.84e2ac22.chunk.js",
+    "static/media/relax.mp3": "/our-corner/static/media/relax.9bad0bd1e4899088297b.mp3",
     "static/media/TamTinh.mp3": "/our-corner/static/media/TamTinh.80daad3a815582716afc.mp3",
     "static/media/HuongMuahe.mp3": "/our-corner/static/media/HuongMuahe.d94e9c48e2fb6ff389c7.mp3",
     "static/media/TuSu.mp3": "/our-corner/static/media/TuSu.7dc74cb35446d95d2420.mp3",
@@ -14,6 +15,7 @@
     "static/media/CoLeQuaKhoDeQuenMotNguoi.mp3": "/our-corner/static/media/CoLeQuaKhoDeQuenMotNguoi.36ab81709b9bf0d1808e.mp3",
     "static/media/detoiomem.mp3": "/our-corner/static/media/detoiomem.83ca8d061bc8629bd687.mp3",
     "static/media/anhsedencungconmua.mp3": "/our-corner/static/media/anhsedencungconmua.b9de4b89f237771433b3.mp3",
+    "static/media/saigonhomnaymua.mp3": "/our-corner/static/media/saigonhomnaymua.6dd200d68bfd02c98af8.mp3",
     "static/media/mylove.mp3": "/our-corner/static/media/mylove.9058a47ec451d65aaa03.mp3",
     "static/media/emvetinhkhoi.mp3": "/our-corner/static/media/emvetinhkhoi.e690b8fa39c8b689e5fa.mp3",
     "static/media/13.jpg": "/our-corner/static/media/13.da39caecc9bf479f4002.jpg",
@@ -44,11 +46,11 @@
     "static/media/30.jpg": "/our-corner/static/media/30.fc3ff3836754dfa23412.jpg",
     "index.html": "/our-corner/index.html",
     "main.189ad379.css.map": "/our-corner/static/css/main.189ad379.css.map",
-    "main.6acd1a35.js.map": "/our-corner/static/js/main.6acd1a35.js.map",
+    "main.e5df72a8.js.map": "/our-corner/static/js/main.e5df72a8.js.map",
     "377.84e2ac22.chunk.js.map": "/our-corner/static/js/377.84e2ac22.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.189ad379.css",
-    "static/js/main.6acd1a35.js"
+    "static/js/main.e5df72a8.js"
   ]
 }
