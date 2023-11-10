@@ -102,7 +102,7 @@ const Player = ({
 					</Track>
 				</div>
 				
-				<div style={{display: 'flex', flexDirection: 'row'}}>
+				<div style={{display: 'flex', flexDirection: 'row', paddingTop: '5px'}}>
 					<div><P>{getTime(songInfo.currentTime || 0)}</P></div>
 					<div style={{marginLeft: 'auto'}}><P>{getTime(songInfo.duration || 0)}</P></div>
 				</div>
@@ -145,9 +145,9 @@ const PlayerContainer = styled.div`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: center;
 	background: white;
 	border-radius: 20px;
-	padding-bottom: 20px
 `;
 
 const TimeControlContainer = styled.div`
@@ -157,7 +157,7 @@ const TimeControlContainer = styled.div`
 	flex-direction: column;
 	@media screen and (max-width: 768px) {
 		width: 100%;
-		padding: 10px 20px
+		padding: 10px 20px 20px 20px
 	}
 `;
 
@@ -237,7 +237,7 @@ const PlayControlContainer = styled.div`
 	width: 30%;
 	@media screen and (max-width: 768px) {
 		width: 100%;
-		padding: 0px 50px
+		padding: 0px 50px;
 	}
 `;
 

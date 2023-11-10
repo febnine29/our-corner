@@ -52,16 +52,23 @@ const App = () => {
 	// State
   const images = [img1, img2, img3, img4, img5, img6, img11, img12, img13, img14, img15, img16, img17, img18, img19, img20, img21, img22, img23, img24, img26, img27, img28, img29, img30, img31];
 	const availableImages = [...images];
-  
-  
-  const faceImages = [
-    availableImages.splice(Math.floor(Math.random() * availableImages.length), 1)[0],
-    availableImages.splice(Math.floor(Math.random() * availableImages.length), 1)[0],
-    availableImages.splice(Math.floor(Math.random() * availableImages.length), 1)[0],
-    availableImages.splice(Math.floor(Math.random() * availableImages.length), 1)[0],
-    availableImages.splice(Math.floor(Math.random() * availableImages.length), 1)[0],
-    availableImages.splice(Math.floor(Math.random() * availableImages.length), 1)[0],
-  ];
+  const generateFaceImages = (availableImages) => {
+    const faceImages = [];
+    for (let i = 0; i < 6; i++) {
+      const randomIndex = Math.floor(Math.random() * availableImages.length);
+      const randomImage = availableImages.splice(randomIndex, 1)[0];
+      faceImages.push(randomImage);
+    }
+    return faceImages;
+  };
+  const handleChangeImages = () => {
+    
+  }
+  const initialFaceImages = generateFaceImages([...images]);
+
+  // State
+  const [faceImages, setFaceImages] = useState(initialFaceImages);
+  console.log(faceImages)
   const [songs, setSongs] = useState(data());
 	const [currentSong, setCurrentSong] = useState(songs[0]);
 	const [isPlaying, setIsPlaying] = useState(false);
@@ -206,6 +213,7 @@ const App = () => {
       </div>
       <div className='bottom-page'>
         <h4 style={{textAlign: 'center', marginTop: '50px'}}>Love you to the moon and back 💜</h4>
+
       </div>
 
 			</div>

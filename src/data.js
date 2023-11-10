@@ -12,6 +12,8 @@ import anhsedencungconmua from './database/anhsedencungconmua.mp3'
 import dubaothoitiet from './database/dubaothoitiet.mp3'
 import emvetinhkhoi from './database/emvetinhkhoi.mp3';
 import baotienbinhyen from './database/baotienbinhyen.mp3';
+import relax from './database/relax.mp3';
+import saigonhomnaymua from './database/saigonhomnaymua.mp3'
 function chillHop() {
 	return [
 		{
@@ -50,6 +52,16 @@ function chillHop() {
 				"https://chillhop.com/wp-content/uploads/2020/09/0255e8b8c74c90d4a27c594b3452b2daafae608d-1024x1024.jpg",
 			artist: "GREY D",
 			audio: dubaothoitiet,
+			color: ["#480085", "#480085"],
+			id: uuidv4(),
+			active: true,
+		},
+		{
+			name: "Sài gòn hôm nay mưa",
+			cover:
+				"https://chillhop.com/wp-content/uploads/2020/09/0255e8b8c74c90d4a27c594b3452b2daafae608d-1024x1024.jpg",
+			artist: "JSON x HOÀNG DUYÊN",
+			audio: saigonhomnaymua,
 			color: ["#480085", "#480085"],
 			id: uuidv4(),
 			active: true,
@@ -95,16 +107,6 @@ function chillHop() {
 			active: false,
 		},
 		{
-			name: "Có Lẽ Quá Khó Để Quên Một Người",
-			cover:
-				"https://chillhop.com/wp-content/uploads/2020/07/ef95e219a44869318b7806e9f0f794a1f9c451e4-1024x1024.jpg",
-			artist: "D.Blue, 1nG",
-			audio: colequakho,
-			color: ["#480085", "#480085"],
-			id: uuidv4(),
-			active: false,
-		},
-		{
 			name: "Ngã Tư Không Đèn",
 			cover:
 				"https://chillhop.com/wp-content/uploads/2020/07/ff35dede32321a8aa0953809812941bcf8a6bd35-1024x1024.jpg",
@@ -130,6 +132,26 @@ function chillHop() {
 				"https://chillhop.com/wp-content/uploads/2020/07/ef95e219a44869318b7806e9f0f794a1f9c451e4-1024x1024.jpg",
 			artist: "Stephen Sanchez, Em Beihold",
 			audio: untilfoundyou,
+			color: ["#480085", "#480085"],
+			id: uuidv4(),
+			active: false,
+		},
+		{
+			name: "Có Lẽ Quá Khó Để Quên Một Người",
+			cover:
+				"https://chillhop.com/wp-content/uploads/2020/07/ef95e219a44869318b7806e9f0f794a1f9c451e4-1024x1024.jpg",
+			artist: "D.Blue, 1nG",
+			audio: colequakho,
+			color: ["#480085", "#480085"],
+			id: uuidv4(),
+			active: false,
+		},
+		{
+			name: "Nhạc không lời hơi buồn xíuuu",
+			cover:
+				"https://chillhop.com/wp-content/uploads/2020/07/ef95e219a44869318b7806e9f0f794a1f9c451e4-1024x1024.jpg",
+			artist: "Anh không biết tên tác giả :(",
+			audio: relax,
 			color: ["#480085", "#480085"],
 			id: uuidv4(),
 			active: false,

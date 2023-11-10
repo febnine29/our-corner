@@ -3,27 +3,27 @@ import '../App.css'
 const Clock = ({ timerDays, timerHours, timerMinutes, timerSeconds, timerMonths }) => {
   return (
     <Fragment>
-      <section className="timer-container" style={{marginTop: '70px'}}>
-        <section className="timer">
-          <div className="clock" style={{width: '200px',margin: '0px auto', display: 'flex'}}>
+      <section className="timer-container" style={{marginTop: '100px'}}>
+        <section className="timer" >
+          <div className="clock" style={{width: '100%',display: 'flex', flexDirection: 'row',alignItems: 'center', justifyContent: 'center'}}>
             <section>
               <p>{timerDays}</p>
-              <small>Ngày</small>
+              <p style={{marginLeft: '3px', fontWeight: 'normal'}}>Ngày</p>
             </section>
-            <span>:</span>
-            <section>
+            <span style={{margin: '5px'}}>:</span>
+            <section >
               <p>{timerHours}</p>
-              <small>Giờ</small>
+              <p style={{marginLeft: '3px', fontWeight: 'normal'}}>Giờ</p>
             </section>{" "}
-            <span>:</span>
+            <span style={{margin: '5px'}}>:</span>
             <section>
               <p>{timerMinutes}</p>
-              <small>Phút</small>
+              <p style={{marginLeft: '3px', fontWeight: 'normal'}}>Phút</p>
             </section>{" "}
-            <span>:</span>
+            <span style={{margin: '5px'}}>:</span>
             <section>
               <p>{timerSeconds}</p>
-              <small>Giây</small>
+              <p style={{marginLeft: '3px', fontWeight: 'normal'}}>Giây</p>
             </section>
           </div>
           
