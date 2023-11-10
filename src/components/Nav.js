@@ -1,12 +1,13 @@
 import React from "react";
 import styled from "styled-components";
+import "../css/nav.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMusic } from "@fortawesome/free-solid-svg-icons";
 
 const Nav = ({ libraryStatus, setLibraryStatus }) => {
 	return (
 		<NavContainer>
-			<div style={{marginRight: 'auto'}}>
+			<div style={{marginRight: 'auto'}} className="header">
 				<H1 libraryStatus={libraryStatus}>Vibes</H1>
 			</div>
 			<div>

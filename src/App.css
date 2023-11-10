@@ -5,9 +5,9 @@
 }
 body {
 	font-family: "Roboto", sans-serif;
-	
-	background-image: linear-gradient(120deg, rgb(252, 203, 144) 0%, rgb(213, 126, 235) 100%) ;
-	background-repeat: no-repeat;
+	background-color: #8BC6EC;
+background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
 	height: 100vh;
 }
 
@@ -88,7 +88,7 @@ h4 {
 	height: 90px;
   }
   .timer-container .timer .clock section{
-	background:rgb(252, 203, 144);
+	font-weight: bold;
 	display: flex;
 	align-items: center;
   }
@@ -134,6 +134,9 @@ h4 {
   .cube .face img {
 	width: 100%;
 	height: 100%;
+  }
+  .cube .fix-front{
+	transform: rotateX(180deg)
   }
   
   .cube .front {

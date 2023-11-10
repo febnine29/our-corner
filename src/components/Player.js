@@ -86,9 +86,9 @@ const Player = ({
 	return (
 		
 		<PlayerContainer>
-			<div style={{width: '300px', marginLeft: 'auto'}}>
+			<div style={{width: '100%'}}>
 			<TimeControlContainer>
-				<div style={{}}>
+				<div style={{margin: '0px'}}>
 					<Song currentSong={currentSong} />
 					<Track currentSong={currentSong}>
 						<Input
@@ -115,6 +115,7 @@ const Player = ({
 					icon={faAngleLeft}
 					size="2x"
 					style={pointer}
+					color="#6C00C7"
 				/>
 				<FontAwesomeIcon
 					onClick={playSongHandler}
@@ -122,6 +123,7 @@ const Player = ({
 					icon={togglePlayPauseIcon()}
 					size="2x"
 					style={pointer}
+					color="#6C00C7"
 				/>
 				<FontAwesomeIcon
 					onClick={() => skipTrackHandler("skip-forward")}
@@ -129,6 +131,7 @@ const Player = ({
 					icon={faAngleRight}
 					size="2x"
 					style={pointer}
+					color="#6C00C7"
 				/>
 			</PlayControlContainer>
 		</PlayerContainer>
@@ -143,7 +146,8 @@ const PlayerContainer = styled.div`
 	flex-direction: column;
 	align-items: center;
 	background: white;
-	border-radius: 20px
+	border-radius: 20px;
+	padding-bottom: 20px
 `;
 
 const TimeControlContainer = styled.div`
@@ -152,7 +156,8 @@ const TimeControlContainer = styled.div`
 	display: flex;
 	flex-direction: column;
 	@media screen and (max-width: 768px) {
-		width: 90%;
+		width: 100%;
+		padding: 10px 20px
 	}
 `;
 
@@ -232,6 +237,7 @@ const PlayControlContainer = styled.div`
 	width: 30%;
 	@media screen and (max-width: 768px) {
 		width: 100%;
+		padding: 0px 50px
 	}
 `;
 

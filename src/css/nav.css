@@ -1,0 +1,13 @@
+.header h1{
+    background: -webkit-linear-gradient(0deg, #6e00ff 0%, #367dff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+button {
+    color: rgb(0, 0, 0);
+    border: 2px solid black !important
+}
+button:focus{
+    background: #480085
+}

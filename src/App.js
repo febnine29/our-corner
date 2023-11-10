@@ -16,7 +16,27 @@ import img2 from "./images/02.jpg";
 import img3 from "./images/03.jpg";
 import img4 from "./images/04.jpeg";
 import img5 from "./images/05.jpeg";
-import img6 from "./images/06.jpeg"
+import img6 from "./images/06.jpeg";
+import img11 from "./images/11.jpg";
+import img12 from "./images/12.jpg";
+import img13 from "./images/13.jpg";
+import img14 from "./images/14.jpg";
+import img15 from "./images/15.jpg";
+import img16 from "./images/16.jpg";
+import img17 from "./images/17.jpg";
+import img18 from "./images/18.jpg";
+import img19 from "./images/19.jpg";
+import img20 from "./images/20.jpg";
+import img21 from "./images/21.jpg";
+import img22 from "./images/22.jpg";
+import img23 from "./images/23.jpg";
+import img24 from "./images/24.jpg";
+import img26 from "./images/26.jpg";
+import img27 from "./images/27.jpg";
+import img28 from "./images/28.jpg";
+import img29 from "./images/29.jpg";
+import img30 from "./images/30.jpg";
+import img31 from "./images/31.jpg";
 // ----------DAYJS CONFIG-----------
 const dayjs = require('dayjs')
 var weekOfYear = require('dayjs/plugin/weekOfYear')
@@ -30,7 +50,19 @@ const App = () => {
 	const audioRef = useRef(null);
 
 	// State
-	const [songs, setSongs] = useState(data());
+  const images = [img1, img2, img3, img4, img5, img6, img11, img12, img13, img14, img15, img16, img17, img18, img19, img20, img21, img22, img23, img24, img26, img27, img28, img29, img30, img31];
+	const availableImages = [...images];
+  
+  
+  const faceImages = [
+    availableImages.splice(Math.floor(Math.random() * availableImages.length), 1)[0],
+    availableImages.splice(Math.floor(Math.random() * availableImages.length), 1)[0],
+    availableImages.splice(Math.floor(Math.random() * availableImages.length), 1)[0],
+    availableImages.splice(Math.floor(Math.random() * availableImages.length), 1)[0],
+    availableImages.splice(Math.floor(Math.random() * availableImages.length), 1)[0],
+    availableImages.splice(Math.floor(Math.random() * availableImages.length), 1)[0],
+  ];
+  const [songs, setSongs] = useState(data());
 	const [currentSong, setCurrentSong] = useState(songs[0]);
 	const [isPlaying, setIsPlaying] = useState(false);
 	const [libraryStatus, setLibraryStatus] = useState(false);
@@ -144,26 +176,26 @@ const App = () => {
           
         </div>
         <div className="container container-cube">
-              <div className="cube">
-                  <div className={classFront}>
-                      <img src={img6} alt="rotate-the-image" />
-                  </div>
-                  <div className={classBack}>
-                      <img src={img2} alt="..." />
-                  </div>
-                  <div className={classRight}>
-                      <img src={img3} alt="..." />
-                  </div>
-                  <div className={classLeft}>
-                      <img src={img4} alt="..." />
-                  </div>
-                  <div className={classTop}>
-                      <img src={img5} alt="..." />
-                  </div>
-                  <div className={classBottom}>
-                      <img src={img1} alt="..." />
-                  </div>
+            <div className="cube">
+              <div className={classFront}>
+                <img src={faceImages[0]} className="fix-front" alt="rotate-the-image" />
               </div>
+              <div className={classBack}>
+                <img src={faceImages[1]} alt="..." />
+              </div>
+              <div className={classRight}>
+                <img src={faceImages[2]} alt="..." />
+              </div>
+              <div className={classLeft}>
+                <img src={faceImages[3]} alt="..." />
+              </div>
+              <div className={classTop}>
+                <img src={faceImages[4]} alt="..." />
+              </div>
+              <div className={classBottom}>
+                <img src={faceImages[5]} alt="..." />
+              </div>
+            </div>
           </div>
           <Clock
             timerDays={timerDays}
@@ -173,7 +205,7 @@ const App = () => {
           />
       </div>
       <div className='bottom-page'>
-        <h4 style={{textAlign: 'center', marginTop: '50px'}}>Embe của anh, anh yêu em rất nhiều!!!!</h4>
+        <h4 style={{textAlign: 'center', marginTop: '50px'}}>Love you to the moon and back 💜</h4>
       </div>
 
 			</div>
