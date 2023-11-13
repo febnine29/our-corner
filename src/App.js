@@ -212,7 +212,7 @@ const App = () => {
           />
       </div>
       <div className='bottom-page'>
-        <h4 style={{textAlign: 'center', marginTop: '50px'}}>Love you to the moon and back 💜</h4>
+        <h4 style={{textAlign: 'center', marginTop: '50px'}}>Embe của anh, anh yêu em rất nhiều!!! 💜</h4>
 
       </div>
 
