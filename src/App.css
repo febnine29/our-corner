@@ -65,7 +65,8 @@ h4 {
   
   /* --------------MY CSS------------- */
   .toggleAni{
-	-webkit-tap-highlight-color: transparent
+	-webkit-tap-highlight-color: transparent;
+	margin-top: 50px
   }
   .App {
 	height: 100vh;
@@ -98,6 +99,7 @@ h4 {
  
   .top-page{
 	height: 75%;
+	padding-top: 50px
   }
   .bottom-page{
 	height: 25%;

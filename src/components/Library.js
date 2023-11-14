@@ -63,6 +63,7 @@ const SongContainer = styled.div`
 
 const H1 = styled.h2`
 	padding: 2rem;
+	margin-left: 30px
 `;
 
 export default Library;

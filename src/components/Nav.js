@@ -3,11 +3,12 @@ import styled from "styled-components";
 import "../css/nav.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMusic } from "@fortawesome/free-solid-svg-icons";
-
+import astronaut from '../images/astronaut.png'
 const Nav = ({ libraryStatus, setLibraryStatus }) => {
 	return (
 		<NavContainer>
-			<div style={{marginRight: 'auto'}} className="header">
+			<div style={{marginRight: 'auto',display: 'flex'}} className="header">
+				<img src={astronaut} width={120} height={100} style={{position: 'absolute', top: '0', left: '-30px'}}/>
 				<H1 libraryStatus={libraryStatus}>Vibes</H1>
 			</div>
 			<div>
@@ -44,6 +45,7 @@ const H1 = styled.h1`
 		visibility: ${(p) => (p.libraryStatus ? "hidden" : "visible")};
 		opacity: ${(p) => (p.libraryStatus ? "0" : "100")};
 		transition: all 0.5s ease;
+		margin-left: 50px
 	}
 `;
 
