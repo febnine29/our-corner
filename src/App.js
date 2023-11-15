@@ -167,13 +167,20 @@ const App = () => {
       }
     });
   };
-  
+  const appContainerRef = useRef(null);
+
+  const handleScrollToTop = () => {
+    if (appContainerRef.current) {
+      appContainerRef.current.scrollTop = 0;
+    }
+  };
   useEffect(() => {
     startTimer();
+    handleScrollToTop()
   });
 
 	return (
-		<AppContainer libraryStatus={libraryStatus}>
+		<AppContainer ref={appContainerRef} libraryStatus={libraryStatus}>
 			<Nav libraryStatus={libraryStatus} setLibraryStatus={setLibraryStatus} />
 			<div style={{height: '60vh', zIndex:'8'}}>
 			<div className="top-page">

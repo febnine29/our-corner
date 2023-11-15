@@ -157,7 +157,7 @@ const TimeControlContainer = styled.div`
 	flex-direction: column;
 	@media screen and (max-width: 768px) {
 		width: 100%;
-		padding: 10px 20px 20px 20px
+		padding: 0px 20px 20px 20px
 	}
 `;
 

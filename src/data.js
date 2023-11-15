@@ -19,12 +19,12 @@ function chillHop() {
 		{
 			name: "Anh sẽ đến cùng cơn mưa (just for you)",
 			cover:
-				"https://chillhop.com/wp-content/uploads/2020/09/0255e8b8c74c90d4a27c594b3452b2daafae608d-1024x1024.jpg",
+				"https://chillhop.com/wp-content/uploads/2020/07/ef95e219a44869318b7806e9f0f794a1f9c451e4-1024x1024.jpg",
 			artist: "HỨA KIM TUYỀN x GREY D",
 			audio: anhsedencungconmua,
 			color: ["#480085", "#480085"],
 			id: uuidv4(),
-			active: true,
+			active: false,
 		},
 		{
 			name: "'bao tiền một mớ bình yên?'",
@@ -34,17 +34,17 @@ function chillHop() {
 			audio: baotienbinhyen,
 			color: ["#480085", "#480085"],
 			id: uuidv4(),
-			active: true,
+			active: false,
 		},
 		{
 			name: "Để tôi ôm em bằng giai điệu này",
 			cover:
-				"https://chillhop.com/wp-content/uploads/2020/09/0255e8b8c74c90d4a27c594b3452b2daafae608d-1024x1024.jpg",
+				"https://chillhop.com/wp-content/uploads/2020/07/ff35dede32321a8aa0953809812941bcf8a6bd35-1024x1024.jpg",
 			artist: "KAI ĐINH x MIN x GREY D",
 			audio: detoiomem,
 			color: ["#480085", "#480085"],
 			id: uuidv4(),
-			active: true,
+			active: false,
 		},
 		{
 			name: "Dự báo thời tiết hôm nay mưa",
@@ -54,7 +54,7 @@ function chillHop() {
 			audio: dubaothoitiet,
 			color: ["#480085", "#480085"],
 			id: uuidv4(),
-			active: true,
+			active: false,
 		},
 		{
 			name: "Sài gòn hôm nay mưa",
@@ -64,7 +64,7 @@ function chillHop() {
 			audio: saigonhomnaymua,
 			color: ["#480085", "#480085"],
 			id: uuidv4(),
-			active: true,
+			active: false,
 		},
 		{
 			name: "Em về tinh khôi",
@@ -74,7 +74,7 @@ function chillHop() {
 			audio: emvetinhkhoi,
 			color: ["#480085", "#480085"],
 			id: uuidv4(),
-			active: true,
+			active: false,
 		},
 		{
 			name: "Hương Mùa Hè",
@@ -84,7 +84,7 @@ function chillHop() {
 			audio: huongmuahe,
 			color: ["#480085", "#480085"],
 			id: uuidv4(),
-			active: true,
+			active: false,
 		},
 		{
 			name: "Dằm Trong Tim",
