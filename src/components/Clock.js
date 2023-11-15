@@ -3,7 +3,7 @@ import '../App.css'
 const Clock = ({ timerDays, timerHours, timerMinutes, timerSeconds, timerMonths }) => {
   return (
     <Fragment>
-      <section className="timer-container" style={{marginTop: '130px'}}>
+      <section className="timer-container" style={{marginTop: '150px'}}>
         <section className="timer" >
           <div className="clock" style={{width: '100%',display: 'flex', flexDirection: 'row',alignItems: 'center', justifyContent: 'center'}}>
             <section>

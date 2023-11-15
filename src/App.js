@@ -182,7 +182,7 @@ const App = () => {
 	return (
 		<AppContainer ref={appContainerRef} libraryStatus={libraryStatus}>
 			<Nav libraryStatus={libraryStatus} setLibraryStatus={setLibraryStatus} />
-			<div style={{height: '60vh', zIndex:'8'}}>
+			<div style={{height: '65vh', zIndex:'8'}}>
 			<div className="top-page">
         <button onClick={handleToggleClass} className="toggleAni"></button>
         <div className='space'>
@@ -218,7 +218,7 @@ const App = () => {
           />
       </div>
       <div className='bottom-page'>
-        <h4 style={{textAlign: 'center', marginTop: '50px'}}>Embe của anh, anh yêu em rất nhiều!!! 💜</h4>
+        <h4 style={{textAlign: 'center', marginTop: '70px'}}>Embe của anh, anh yêu em rất nhiều!!! 💜</h4>
 
       </div>
 
