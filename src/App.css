@@ -99,7 +99,7 @@ h4 {
  
   .top-page{
 	height: 75%;
-	padding-top: 50px
+	padding-top: 20px
   }
   .bottom-page{
 	height: 25%;
@@ -197,6 +197,9 @@ h4 {
   .leftS{
 	transform: rotateX(0deg) translateZ(0px) translateY(120px) !important
   }
+  /* .leftS img{
+	transform: scaleX(-1);
+  } */
   .topS{
 	transform: rotateY(90deg) translateZ(100px)!important
   }
